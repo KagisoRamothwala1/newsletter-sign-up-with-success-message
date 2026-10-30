@@ -1,0 +1,170 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(235, 18%, 26%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+
+}
+
+.contentcontainer{
+      
+}
+
+.imagecontainer{
+
+}
+
+.signupimage{
+        
+
+}
+
+.newslettersignup{
+
+
+}
+
+
+
+.newsletterdescription{
+
+    
+}
+
+
+.newsletterdescriptionlist{
+
+    
+}
+
+    
+.newslettersignupform{
+    
+    
+}
+
+
+.newslettersignupbutton{
+
+    
+}
+
+    
+
+.confirmationmessagecontainer{
+
+    
+}
+
+    
+    
+.confirmationmessageicon{
+
+    
+}
+
+    
+    
+.confirmationmessagedescription{
+
+    
+}
+
+    
+    
+.confirmationmessagebutton{
+
+    
+}
+
+    
+    
+.attribution{
+        
+    
+}
+
+@media (max-width: 375px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: white;
+
+    }
+
+    .imagecontainer{
+    
+    
+    }
+
+    .contentcontainer{
+    
+    }
+
+
+    .signupimage{
+        
+    }
+
+    .newslettersignup{
+
+    }
+
+    .newsletterdescription{
+
+    }
+
+    .newsletterdescriptionlist{
+
+    }
+
+    .newslettersignupform{
+
+    }
+
+
+    .newslettersignupbutton{
+
+    }
+
+    .confirmationmessagecontainer{
+
+    }
+
+    .confirmationmessageicon{
+
+    }
+
+    .confirmationmessagedescription{
+
+    }
+
+    .confirmationmessagebutton{
+
+    }
+
+    .attribution{
+
+    }
+
+}
