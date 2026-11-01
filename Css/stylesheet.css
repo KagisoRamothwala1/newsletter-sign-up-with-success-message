@@ -1,3 +1,17 @@
+@font-face {
+  font-family:'Roboto-Regular'; 
+  src: url('../assets/fonts/Roboto-Regular.ttf');        
+  font-weight: normal;   
+  font-style: normal; 
+}
+
+@font-face {
+  font-family:'Roboto-Bold'; 
+  src: url('../assets/fonts/Roboto-Bold.ttf');   
+  font-weight: bold;   
+  font-style: normal; 
+}
+
 html,body{
     height: 100%;
 }
@@ -15,7 +29,7 @@ body{
 }
 
 .headcontainer{
-display: flex;
+  display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
@@ -79,7 +93,7 @@ display: flex;
 
 
 ul{
-  list-style-image: url("./assets/images/icon-list.svg");
+  list-style-image: url("../assets/images/icon-list.svg");
 
 }
 
@@ -291,18 +305,14 @@ color: white;
       border-style: unset;
     }
 
-    .newslettersignupbutton:hover{
-  
-    }
-
     ul{
-      list-style-image: url("./assets/images/icon-list.svg");
+      list-style-image: url("../assets/images/icon-list.svg");
 
     }
 
 
     .confirmationmessagecontainer{
-      display: flex;
+      display: none;
       flex-direction: column;
       background-color: white;
       border-radius: 10px;
