@@ -8,6 +8,10 @@ body{
     align-items: center;
     justify-content: center;
     background-color: hsl(235, 18%, 26%);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .headcontainer{
@@ -20,15 +24,15 @@ display: flex;
 }
 
 .container{
-display: flex;
+  display: flex;
   border-style: unset;
   border-width: 0px;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 55%;
   background-color: white;
-  width: 68%;
+  width: 36%;
 
 }
 
@@ -36,7 +40,7 @@ display: flex;
   margin-inline: 10px;
   display: flex;
   flex-direction: column;
-  row-gap: 44px;
+  row-gap: 19px;
 }
 
 .imagecontainer{
@@ -47,6 +51,10 @@ display: flex;
        height: 444px;
   width: 299px; 
 
+}
+
+.signupimagemobile{
+  display: none;
 }
 
 .newslettersignup{
@@ -70,30 +78,75 @@ display: flex;
 }
 
 
-.newsletterdescriptionlist{
+ul{
+  list-style-image: url("./assets/images/icon-list.svg");
 
-    
 }
 
     
-.newslettersignupform{
-    
+.textbox{
+  position: relative;
+  width: 205px;
     
 }
 
+input{
+  width: 224px;
+  height: 42px;
+  outline: none;
+}
+
+label{
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  color: transparent;
+  transition: 0.5s;
+  padding: 0 5px;
+}
+
+input:focus+label,
+input:valid+label{
+  top: -8px;
+  font-size: 14px;
+  color: red;
+  background-color: white;
+}
 
 .newslettersignupbutton{
-
+  height: 49px;
+  width: 233px;
+  font-size: 11px;
+  color: white;
+  background-color: hsl(234, 30%, 19%);
+  border-radius: 7px;
+  border-style: unset;
     
 }
 
+.newslettersignupbutton:hover{
+  background: linear-gradient(to right, hsl(347, 100%, 68%), hsl(7, 100%, 65%),hsl(13, 100%, 62%));
+  color: white;
+  transform: translateY(-2px);
+
+}
     
 
 .confirmationmessagecontainer{
-
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  width: 279px;
+  height: 309px;
+  justify-content: center;
+  align-items: center;
     
 }
 
+.contentcontainer{
+
+}
     
     
 .confirmationmessageicon{
@@ -111,12 +164,20 @@ display: flex;
     
     
 .confirmationmessagebutton{
-
-    
+width: 254px;
+height: 28px;
+background-color: hsl(232, 31%, 20%);
+border-radius: 10px;
+border-style: unset;
+color: white;
 }
 
-    
-    
+.confirmationmessagebutton:hover{
+    background: linear-gradient(to right, hsl(347, 100%, 68%), hsl(7, 100%, 65%),hsl(13, 100%, 62%));
+    color: white;
+    transform: translateY(-2px);
+}
+   
 .attribution{
         
     
@@ -126,16 +187,15 @@ display: flex;
 
     .container{
         display: flex;
-        flex-direction: column;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 0px 0px 10px 10px;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        height: 90%;
-        width: 474px;
-
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50%;
+    width: 312px;
     }
 
     .imagecontainer{
@@ -144,40 +204,114 @@ display: flex;
     }
 
     .headcontainer{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 20px;
     }
 
     .contentcontainer{
-    
+    margin-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
     }
 
 
     .signupimage{
-        
+    display: none;
+    }
+
+    .signupimagemobile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20vh;
     }
 
     .newslettersignup{
-
+    font-size: 38px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    color: hsl(233, 33%, 20%);
     }
 
     .newsletterdescription{
-
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      margin-inline: 13px;
     }
 
     .newsletterdescriptionlist{
-
+      font-size: 13px;
+    margin-inline: 12px;
     }
 
-    .newslettersignupform{
+     .textbox {
+    position: relative;
+    width: 20px;
+    }
 
+    input {
+    outline: none;
+    width: 150px;
+    height: 37px;
+    }
+
+    label{
+      position: absolute;
+      left: 12px;
+      top: 14px;
+      color: transparent;
+      transition: 0.5s;
+      padding: 0 5px;
+    }
+
+    input:focus+label,
+    input:valid+label{
+      top: -8px;
+      font-size: 10px;
+      color: red;
+      background-color: white;
     }
 
 
     .newslettersignupbutton{
+      height: 42px;
+      width: 205px;
+      font-size: 11px;
+      color: white;
+      background-color: hsl(234, 30%, 19%);
+      border-radius: 7px;
+      border-style: unset;
+    }
+
+    .newslettersignupbutton:hover{
+  
+    }
+
+    ul{
+      list-style-image: url("./assets/images/icon-list.svg");
 
     }
 
+
     .confirmationmessagecontainer{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 10px;
+      width: 250px;
+      height: 260px;
+      justify-content: center;
+      align-items: center;
+    }
+    .contentcontainer{
 
     }
 
@@ -190,7 +324,19 @@ display: flex;
     }
 
     .confirmationmessagebutton{
+    width: 254px;
+    height: 28px;
+    background-color: hsl(232, 31%, 20%);
+    border-radius: 10px;
+    border-style: unset;
+    }
 
+    .signupimage{
+    display: none;
+    }
+
+    .signupimagemobile{
+      display: flex;
     }
 
     .attribution{

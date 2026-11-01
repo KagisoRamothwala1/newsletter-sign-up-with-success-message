@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link href="./Css/stylesheet.css" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
   <title> Kagiso Ramothwala | Newsletter sign-up form with success message </title>
 
 </head>
@@ -17,6 +20,10 @@
    
     <div class="imagecontainer">
       <img src="assets/images/illustration-sign-up-desktop.svg" class="signupimage" alt="illustration-sign-up-desktop"> 
+    </div>
+
+    <div class="imagecontainermobile">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" class="signupimagemobile" alt="illustration-sign-up-desktop-mobile"> 
     </div>
     
     <div class="contentcontainer">
@@ -30,20 +37,21 @@
       Join 60,000+ product managers receiving monthly updates on:
       </div>
 
-      <div class="newsletterdescriptionlist">
-      Product discovery and building what matters
-      Measuring to ensure updates are a success
-      And much more!
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <div class="textbox">  
+        <input type="text" placeholder="email@company.com"  class="input" required>
+        <label>Email Address</label>
+     
       </div>
 
-      <div class="newslettersignupform">
-      Email address
-      email@company.com
-      </div>
-
-      <div class="newslettersignupbutton">
+      <button class="newslettersignupbutton">
       Subscribe to monthly newsletter
-      </div>
+      </button>
       
     </div>
 
@@ -54,7 +62,13 @@
 
 
 <div class="confirmationmessagecontainer">
-  
+
+<div class="contentcontainer">
+
+  <div class="confirmationmessageimage">
+    <img src="./assets/images/icon-success.svg" alt="iconsuccess">
+  </div>
+
   <div class="confirmationmessageicon">  
   Thanks for subscribing!
   </div>
@@ -64,8 +78,10 @@
   Please open it and click the button inside to confirm your subscription.
   </div>
 
-  <div class="confirmationmessagebutton">
+  <button class="confirmationmessagebutton">
   Dismiss message
+  </button>
+
   </div>
 
 </div>
