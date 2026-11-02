@@ -44,9 +44,9 @@ body{
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  height: 497px;
+  height: 379px;
   background-color: white;
-  width: 668px;
+  width: 568px;
 
 }
 
@@ -57,13 +57,8 @@ body{
   row-gap: 11px;
 }
 
-.imagecontainer{
-
-}
-
 .signupimage{
-       height: 444px;
-  width: 299px; 
+  height: 341px;
 
 }
 
@@ -215,14 +210,10 @@ color: white;
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 524px;
-    width: 295px;
+    height: 69%;
+    width: 100%;
     }
 
-    .imagecontainer{
-    
-    
-    }
 
     .headcontainer{
     display: flex;
@@ -236,7 +227,8 @@ color: white;
     margin-inline: 10px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 17px;
+    padding-bottom: 37px;
     }
 
 
@@ -248,7 +240,8 @@ color: white;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 20vh;
+    height: 258px;
+    padding-bottom: 29px;
     }
 
     .newslettersignup{
@@ -291,6 +284,7 @@ color: white;
       color: transparent;
       transition: 0.5s;
       padding: 0 5px;
+      margin-inline: 20px;
     }
 
     input:focus+label,
@@ -351,6 +345,7 @@ color: white;
     background-color: hsl(232, 31%, 20%);
     border-radius: 10px;
     border-style: unset;
+    margin-inline: 20px;
     }
 
     .signupimage{
@@ -361,7 +356,7 @@ color: white;
       display: flex;
       justify-content: center;
       align-content: center;
-      height: 223px;
+      height: 199px;
     }
 
     .attribution{
