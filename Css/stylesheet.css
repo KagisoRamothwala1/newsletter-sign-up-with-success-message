@@ -275,6 +275,7 @@ color: white;
     outline: none;
     width: 262px;
     height: 37px;
+    margin-inline: 20px;
     }
 
     label{
@@ -304,6 +305,7 @@ color: white;
       background-color: hsl(234, 30%, 19%);
       border-radius: 7px;
       border-style: unset;
+      margin-inline: 20px;
     }
 
     .newslettersignupbutton:hover{
@@ -352,15 +354,9 @@ color: white;
     display: none;
     }
 
-    .signupimagemobile{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      height: 199px;
-    }
-
     .attribution{
-
+      padding-top: 10px;
+      font-size: 12px;
     }
 
 }
