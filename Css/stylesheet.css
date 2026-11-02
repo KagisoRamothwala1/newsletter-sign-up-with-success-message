@@ -44,9 +44,9 @@ body{
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  height: 55%;
+  height: 497px;
   background-color: white;
-  width: 36%;
+  width: 668px;
 
 }
 
@@ -54,7 +54,7 @@ body{
   margin-inline: 10px;
   display: flex;
   flex-direction: column;
-  row-gap: 19px;
+  row-gap: 11px;
 }
 
 .imagecontainer{
@@ -72,29 +72,33 @@ body{
 }
 
 .newslettersignup{
-font-size: 46px;
+  font-size: 45px;
   font-weight: bold;
   align-content: center;
   justify-content: center;
   display: flex;
   color: hsl(233, 33%, 20%);
+  font-family: Roboto-bold;
 
 }
 
 
 
 .newsletterdescription{
-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 13px;
+  font-family: Roboto-regular;
     
 }
 
 
 ul{
   list-style-image: url("../assets/images/icon-list.svg");
-
+  margin-inline: -14px;
+  font-size: 13px;
+  font-family: Roboto-regular;
 }
 
     
@@ -105,9 +109,10 @@ ul{
 }
 
 input{
-  width: 224px;
+  width: 283px;
   height: 42px;
   outline: none;
+  font-family: Roboto-regular;
 }
 
 label{
@@ -117,6 +122,7 @@ label{
   color: transparent;
   transition: 0.5s;
   padding: 0 5px;
+  font-family: Roboto-regular;
 }
 
 input:focus+label,
@@ -129,12 +135,13 @@ input:valid+label{
 
 .newslettersignupbutton{
   height: 49px;
-  width: 233px;
+  width: 292px;
   font-size: 11px;
   color: white;
   background-color: hsl(234, 30%, 19%);
   border-radius: 7px;
   border-style: unset;
+  font-family: Roboto-regular;
     
 }
 
@@ -200,16 +207,16 @@ color: white;
 @media (max-width: 375px) {
 
     .container{
-        display: flex;
+    display: flex;
     flex-direction: row;
-    border-style: solid;
+    border-style: unset;
     border-width: 2px;
     border-radius: 0px 0px 10px 10px;
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 50%;
-    width: 312px;
+    height: 524px;
+    width: 295px;
     }
 
     .imagecontainer{
@@ -229,7 +236,7 @@ color: white;
     margin-inline: 10px;
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 10px;
     }
 
 
@@ -273,7 +280,7 @@ color: white;
 
     input {
     outline: none;
-    width: 150px;
+    width: 262px;
     height: 37px;
     }
 
@@ -297,7 +304,7 @@ color: white;
 
     .newslettersignupbutton{
       height: 42px;
-      width: 205px;
+      width: 271px;
       font-size: 11px;
       color: white;
       background-color: hsl(234, 30%, 19%);
@@ -305,9 +312,14 @@ color: white;
       border-style: unset;
     }
 
+    .newslettersignupbutton:hover{
+      display: none;
+    }
+
     ul{
       list-style-image: url("../assets/images/icon-list.svg");
-
+      font-size: 13px;
+      font-family: Roboto-regular;
     }
 
 
@@ -347,6 +359,9 @@ color: white;
 
     .signupimagemobile{
       display: flex;
+      justify-content: center;
+      align-content: center;
+      height: 223px;
     }
 
     .attribution{
