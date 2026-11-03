@@ -44,12 +44,12 @@
       </ul>
 
       <div class="textbox">  
-        <input type="text" placeholder="email@company.com"  class="input" required>
+        <input type="text" placeholder="email@company.com"  id="emailaddress" class="input" required>
         <label>Email Address</label>
      
       </div>
 
-      <button class="newslettersignupbutton">
+      <button class="newslettersignupbutton" id="submitbutton">
       Subscribe to monthly newsletter
       </button>
       
@@ -61,7 +61,7 @@
 
 
 
-<div class="confirmationmessagecontainer">
+<div class="confirmationmessagecontainer" id="confirmationmessagecontainer">
 
 <div class="contentcontainer">
 
@@ -74,15 +74,14 @@
   </div>
 
   <div class="confirmationmessagedescription">
-  A confirmation email has been sent to ash@loremcompany.com. 
+  A confirmation email has been sent to <span id="emailladressplacement">ash@loremcompany.com</span>  
   Please open it and click the button inside to confirm your subscription.
   </div>
+  </div>
 
-  <button class="confirmationmessagebutton">
+  <button class="confirmationmessagebutton" id="confirmationmessagebuttonclose">
   Dismiss message
   </button>
-
-  </div>
 
 </div>
   

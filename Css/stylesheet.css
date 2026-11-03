@@ -152,36 +152,45 @@ input:valid+label{
   display: none;
   flex-direction: column;
   background-color: white;
-  border-radius: 10px;
-  width: 279px;
-  height: 309px;
+  border-radius: 20px;
+  width: 341px;
+  height: 313px;
   justify-content: center;
   align-items: center;
     
 }
 
-.contentcontainer{
 
-}
     
     
 .confirmationmessageicon{
-
+  font-size: 34px;
+  font-weight: bold;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  color: hsl(233, 33%, 20%);
+  font-family: Roboto-bold;
     
+}
+
+.confirmationmessageimage{
+ height: 43px; 
+ padding-bottom: 10px;
 }
 
     
     
 .confirmationmessagedescription{
-
-    
+  padding-bottom: 5px;
+  font-size: 11px;
 }
 
     
     
 .confirmationmessagebutton{
 width: 254px;
-height: 28px;
+height: 40px;
 background-color: hsl(232, 31%, 20%);
 border-radius: 10px;
 border-style: unset;
@@ -210,8 +219,8 @@ color: white;
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 69%;
-    width: 100%;
+    height: 592px;
+    width: 340px;
     }
 
 
@@ -222,13 +231,15 @@ color: white;
     justify-content: center;
     margin-inline: 20px;
     }
+    
 
     .contentcontainer{
-    margin-inline: 10px;
+    margin-inline: 47px;
     display: flex;
     flex-direction: column;
-    row-gap: 17px;
-    padding-bottom: 37px;
+    row-gap: 11px;
+    font-size: 13px;
+    padding-bottom: 35px;
     }
 
 
@@ -241,7 +252,7 @@ color: white;
     justify-content: center;
     align-content: center;
     height: 258px;
-    padding-bottom: 29px;
+    padding-bottom: 16px;
     }
 
     .newslettersignup{
@@ -320,36 +331,53 @@ color: white;
 
 
     .confirmationmessagecontainer{
-      display: none;
-      flex-direction: column;
-      background-color: white;
-      border-radius: 10px;
-      width: 250px;
-      height: 260px;
-      justify-content: center;
-      align-items: center;
-    }
-    .contentcontainer{
-
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
     }
 
     .confirmationmessageicon{
-
+      font-size: 34px;
+      font-weight: bold;
+      align-content: center;
+      justify-content: center;
+      display: flex;
+      color: hsl(233, 33%, 20%);
+      font-family:'Roboto-Regular';
+      padding-bottom: 5px;
     }
 
+  .confirmationmessageimage {
+    height: 43px;
+    padding-bottom: 33px;
+  }
+    
+
     .confirmationmessagedescription{
+     font-size: 15px;
+    padding-bottom: 398px;
+    font-family: 'Roboto-Regular';
 
     }
 
     .confirmationmessagebutton{
-    width: 254px;
-    height: 28px;
+    width: 313px;
+    height: 59px;
     background-color: hsl(232, 31%, 20%);
     border-radius: 10px;
     border-style: unset;
     margin-inline: 20px;
+    font-family: 'Roboto-Bold';
     }
 
+    .confirmationmessagebutton:hover{
+    display: none;
+    }
     .signupimage{
     display: none;
     }
