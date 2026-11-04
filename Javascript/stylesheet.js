@@ -1,34 +1,54 @@
-let emailAddress = getElementById(".emailaddress");
-let emaillAdressplacement = getElementById(".emailladressplacement");
-const confirmationMessagecontainer = document.querySelector(".confirmationmessagecontainer");
-const confirmationMessagebuttonclose = document.querySelector(".confirmationmessagebuttonclose");
-var submitbutton = false
+const submitbutton = document.querySelector("button");
+const confirmationmessagecontainer = document.getElementById("confirmationmessagecontainer");
+const form = document.getElementById("newsletterform");
+const confirmationmessagebuttonclose = document.getElementById("confirmationmessagebuttonclose");
 
-shareButton.addEventListener("click", function () {
+// Hide confirmation container initially
+confirmationmessagecontainer.style.display = "none";
 
-    submitbutton = !submitbutton;
-    if (submitbutton){
-        console.log("button active")
-        shareButton.classList.remove("sharebuttonbackground");
-        shareContainer.classList.toggle("active")
-        shareContainer.classList.remove("headcontainer");
-        shareContainer.classList.add("socialLinkCtn");
-    }
-    else{
-        console.log("button deactive")
-        //shareContainer.classList.toggle("deactive");
-         shareButton.classList.add("container");
-        shareContainer.classList.add("headcontainer");
-        shareContainer.classList.remove("confirmationMessagecontainer");
-    }
-    
-    
+// When the form is submitted
+emailaddress.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    // Display confirmation container
+    confirmationmessagecontainer.style.display = "block";
+
+    // Hide the form
+    form.style.display = "none";
 
 });
 
-confirmationmessagecontainer
-emailladress
-emailladressplacement
-submitbutton
-confirmationmessagecontainer
-confirmationmessagebuttonclose
+confirmationmessagebuttonclose.addEventListener("click", function() {
+
+    confirmationmessagecontainer.style.display = "none";
+
+    form.style.display = "block";
+
+});
+
+// remove the error while typing
+emailaddress.addEventlistener("input", fuction () {
+
+    emailaddress.classlist.remove("error");
+    errorMessage.classlist.remove("active");
+
+});
+
+//dismiss successful popup
+confirmationmessagebuttonclose.addEventlistener("click", fuction(){
+    confirmationmessagecontainer.classlist.remove("active");
+
+     // Show the form again
+    form.classList.remove("hidden");
+
+    // Clear the input
+    emailladressplacement.value = "";
+})
+
+//confirmationmessagecontainer
+//emailladress
+//emailladressplacement
+//submitbutton
+//confirmationmessagecontainer
+//confirmationmessagebuttonclose
