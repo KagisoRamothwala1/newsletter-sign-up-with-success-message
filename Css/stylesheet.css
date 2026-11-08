@@ -57,6 +57,13 @@ body{
   row-gap: 11px;
 }
 
+.popupcontentcontainer{
+  margin-inline: 41px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
 .signupimage{
   height: 341px;
 
@@ -176,13 +183,13 @@ input:valid+label{
 
 .confirmationmessageimage{
  height: 43px; 
- padding-bottom: 10px;
+ padding-bottom: 22px;
 }
 
     
     
 .confirmationmessagedescription{
-  padding-bottom: 5px;
+  padding-bottom: 26px;
   font-size: 11px;
 }
 
@@ -203,10 +210,6 @@ color: white;
     transform: translateY(-2px);
 }
    
-.attribution{
-        
-    
-}
 
 @media (max-width: 375px) {
 

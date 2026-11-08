@@ -13,14 +13,14 @@
 
 </head>
 <body>
-  <form id="newsletterform">
+   <form id="newsletterform">
 
   <div class="container">
     
     <div class="headcontainer">
    
     <div class="imagecontainer">
-      <img src="assets/images/illustration-sign-up-desktop.svg" class="signupimage" alt="illustration-sign-up-desktop"> 
+      <img src="./assets/images/illustration-sign-up-desktop.svg" class="signupimage" alt="illustration-sign-up-desktop"> 
     </div>
 
     <div class="imagecontainermobile">
@@ -45,12 +45,12 @@
       </ul>
 
       <div class="textbox">  
-        <input type="text" placeholder="email@company.com"  id="emailaddress" class="input" required>
+        <input type="email" placeholder="email@company.com"  id="emailaddress" class="input" required>
         <label>Email Address</label>
      
       </div>
 
-      <button class="newslettersignupbutton" id="submitbutton" onclick="submit" type="button">
+      <button class="newslettersignupbutton" id="submitbutton" type="submit" required>
       Subscribe to monthly newsletter
       </button>
       
@@ -65,7 +65,7 @@
 
 <div class="confirmationmessagecontainer" id="confirmationmessagecontainer">
 
-<div class="contentcontainer">
+<div class="popupcontentcontainer">
 
   <div class="confirmationmessageimage">
     <img src="./assets/images/icon-success.svg" alt="iconsuccess">
